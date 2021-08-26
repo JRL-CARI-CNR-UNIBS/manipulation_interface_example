@@ -1,0 +1,62 @@
+manipulation_objects:
+- {
+      "name": "squadra_piccola",
+      "grasp_poses": [{
+          "position": [0, 0, 0.06],
+          "quaternion": [1, 0, 0, 0],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }, {
+          "position": [0, 0, 0.06],
+          "quaternion": [0, 1, 0, 0],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }]
+  }
+- {
+      "name": "squadra_grande",
+      "grasp_poses": [{
+          "position": [0, 0, 0.06],
+          "quaternion": [1, 0, 0, 0],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }, {
+          "position": [0, 0, 0.06],
+          "quaternion": [0, 1, 0, 0],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }]
+  }
+- {
+      "name": "cube",
+      "grasp_poses": [{
+          "position": [0, 0, 0.01],
+          "quaternion": [0, 0, 0, 1],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }, {
+          "position": [0, 0, 0.01],
+          "quaternion": [0, 0, 1, 0],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }, {
+          "position": [0, 0, 0.01],
+          "quaternion": [0, 0, 0.707107, 0.707107],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }, {
+          "position": [0, 0, 0.01],
+          "quaternion": [0, 0, -0.707107, 0.707107],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }]
+  }
+- {
+      "name": "pin",
+      "grasp_poses": [{
+          "position": [0, 0, 0.005],
+          "quaternion": [1, 0, 0, 0],
+          "approach_distance": [0, 0, 0.1],
+          "tool": "open_tip"
+      }]
+  }

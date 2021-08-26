@@ -1,0 +1,4 @@
+outbound:
+  slots_group:
+  - {name: "group_A"}
+  - {name: "group_B"}

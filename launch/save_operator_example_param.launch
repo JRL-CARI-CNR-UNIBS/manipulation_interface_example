@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<!-- This launch file load an example of params for manipulation  -->
+
+<!-- inbound_pick_server outbound_place_server go_to_location_server multi_skills/group_name  are the initial params
+that are necessarly loaded before the user work -->
+
+<!-- Using mongo_set_server_param and mongo_set_example_operetor_param it's possible load them in mongo -->
+<launch>
+
+<rosparam command="load" file="$(find manipulation_interface_example)/config/go_to_location.yaml" />
+<rosparam command="load" file="$(find manipulation_interface_example)/config/inbound_boxes.yaml" />
+<rosparam command="load" file="$(find manipulation_interface_example)/config/objects_description.yaml" />
+<rosparam command="load" file="$(find manipulation_interface_example)/config/outbound_slots_groups.yaml" />
+<rosparam command="load" file="$(find manipulation_interface_example)/config/multi_skills.yaml" />
+<rosparam command="load" file="$(find manipulation_interface_example)/config/slots_distribution.yaml" />
+
+<node name="mongo_set_example_operator_param" type="mongo_set_example_operator_param.py" pkg="manipulation_interface_example" />
+
+</launch>
