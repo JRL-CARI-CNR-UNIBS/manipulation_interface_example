@@ -7,18 +7,18 @@ manipulation_object_types:
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }, {
           "position": [0, 0, 0.06],
           "quaternion": [0, 1, 0, 0],
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }]
   }
 - {
@@ -29,18 +29,18 @@ manipulation_object_types:
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }, {
           "position": [0, 0, 0.06],
           "quaternion": [0, 1, 0, 0],
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }]
   }
 - {
@@ -51,36 +51,36 @@ manipulation_object_types:
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }, {
           "position": [0, 0, 0.01],
           "quaternion": [0, 0, 1, 0],
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }, {
           "position": [0, 0, 0.01],
           "quaternion": [0, 0, 0.707107, 0.707107],
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }, {
           "position": [0, 0, 0.01],
           "quaternion": [0, 0, -0.707107, 0.707107],
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }]
   }
 - {
@@ -91,8 +91,8 @@ manipulation_object_types:
           "approach_distance": [0, 0, 0.1],
           "leave_distance": [0, 0, 0.1],
           "tool": "open_tip",
-          "property_pre_exec_id": "open",
-          "property_exec_id": "close",
-          "property_post_exec_id": "close"
+          "pre_gripper_position": 85.0,
+          "post_gripper_position": 20.0,
+          "gripper_force": 100.0
       }]
   }
