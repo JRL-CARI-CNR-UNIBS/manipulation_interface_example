@@ -39,7 +39,7 @@ if __name__ == '__main__':
 	groups_collection.insert_many(groups_param)
 
 	objects_collection.delete_many({})
-	objects_param = rospy.get_param("/manipulation_objects")
+	objects_param = rospy.get_param("/manipulation_object_types")
 	objects_collection.insert_many(objects_param)
 
 	tasks_collection.delete_many({})
