@@ -1,0 +1,6 @@
+scene_objects:
+- {type: "green_cube",      frame: "table", position: [-0.172, 1.669, 0.0375], quaternion: [0,0,0,1]}
+- {type: "light_blue_cube", frame: "table", position: [-0.123, 1.432, 0.0375], quaternion: [0,0,0,1]}
+- {type: "pink_cube",       frame: "table", position: [-0.029, 1.592, 0.0375], quaternion: [0,0,0,1]}
+- {type: "white_cube",      frame: "table", position: [-0.172, 1.859, 0.0375], quaternion: [0,0,0,1]}
+- {type: "yellow_cube",     frame: "table", position: [-0.029, 1.270, 0.0375], quaternion: [0,0,0,1]}
