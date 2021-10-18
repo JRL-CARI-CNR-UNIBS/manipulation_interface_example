@@ -1,5 +1,0 @@
-scene_objects:
-# - {type: "little_cube",  frame: "table", position: [-0.009, 1.258, 0.117], quaternion: [0,0,0,1]}
-- {type: "plate",        frame: "table", position: [-0.085, 1.816, 0.044], quaternion: [0,0,0,1]}
-- {type: "L_plate",      frame: "table", position: [-0.029, 1.328, 0.025], quaternion: [0,0,0.707,0.707]}
-- {type: "cube",  frame: "table", position: [-0.071, 1.586, 0.062], quaternion: [0,0,0,1]}

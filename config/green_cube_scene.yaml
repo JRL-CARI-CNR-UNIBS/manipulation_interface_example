@@ -1,2 +1,0 @@
-scene_objects:
-- {type: "green_cube",  frame: "table", position: [0.299, 0.498, 0.168], quaternion: [0,0,0,1]}
