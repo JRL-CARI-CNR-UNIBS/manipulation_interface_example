@@ -2,6 +2,10 @@
 
 <launch>
 
+<arg name="mongo_db_name" default="interface_data" />
+
 <node name="mongo_set_example_operator_param" type="mongo_set_example_operator_param.py" pkg="manipulation_interface_example" />
+<param name="mongo_db_name" value="$(arg mongo_db_name)"/>
+
 
 </launch>

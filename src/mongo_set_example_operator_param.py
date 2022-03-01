@@ -9,7 +9,9 @@ from pymongo import MongoClient
 
 client = MongoClient('localhost', 27017)
 
-db = client.example_data
+db_param = rospy.get_param("/mongo_db_name")
+print(db_param)
+db = client[db_param]
 
 go_to_collection     = db.go_to_locations
 boxes_collection     = db.boxes
@@ -49,5 +51,3 @@ if __name__ == '__main__':
 	recipes_collection.delete_many({})
 	recipes_param = rospy.get_param("/multi_skills/recipes")
 	recipes_collection.insert_many(recipes_param)
-
-
