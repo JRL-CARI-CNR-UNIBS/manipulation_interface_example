@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.0.2)
 project(manipulation_interface_example)
 
 find_package(catkin REQUIRED COMPONENTS
-	message_generation
 	rospy
 	std_msgs
+	message_generation
 )
 
 ## Generate services in the 'srv' folder
@@ -30,4 +30,3 @@ include_directories(
 # include
  ${catkin_INCLUDE_DIRS}
 )
-

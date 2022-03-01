@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 import pymongo
 import pprint
@@ -9,7 +9,7 @@ from pymongo import MongoClient
 
 client = MongoClient('localhost', 27017)
 
-db = client.interface_data
+db = client.example_data
 
 go_to_collection     = db.go_to_locations
 boxes_collection     = db.boxes
